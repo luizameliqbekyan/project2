@@ -7,7 +7,7 @@
 require_once 'classes.php';
 
 $students = [
-    new Student("Անի", "Պետրոսյան", 20, 101, "091123456", 18.5, "ՏՏ", 2),
+    new Student("Անի", "Պետրոսյան", 20, 101, "091123456", 18.5, "Բնագիտական", 2),
     new Student("Արամ", "Հակոբյան", 22, 102, "093654321", 17.8, "Տնտեսագիտություն", 3),
     new Student("Մարի", "Սարգսյան", 19, 103, "094987654", 19.2, "Հումանիտար", 1),
 ];
@@ -15,6 +15,9 @@ $students = [
 
 ?>
     <style>
+        body {
+            background-color: #e6b6d1ff;
+        }
         table {
             border-collapse: collapse;
             width: 80%;
@@ -26,7 +29,7 @@ $students = [
             text-align: center;
         }
         th {
-            background-color: #ddd;
+            background-color: #c584d3ff;
         }
     </style>
 </head>
