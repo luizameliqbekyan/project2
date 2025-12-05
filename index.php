@@ -10,13 +10,16 @@ $students = [
     new Student("Անի", "Պետրոսյան", 20, 101, "091123456", 18.5, "Բնագիտական", 2),
     new Student("Արամ", "Հակոբյան", 22, 102, "093654321", 17.8, "Տնտեսագիտություն", 3),
     new Student("Մարի", "Սարգսյան", 19, 103, "094987654", 19.2, "Հումանիտար", 1),
+    new Student("Սուրեն", "Սիմոնյան", 21, 103, "094987654", 10, "Հումանիտար", 2),
+
 ];
 
 
 ?>
     <style>
         body {
-            background-color: #e6b6d1ff;
+            background-color: #f2d8e7ff;
+            font-family: sans-serif;
         }
         table {
             border-collapse: collapse;
@@ -29,7 +32,7 @@ $students = [
             text-align: center;
         }
         th {
-            background-color: #c584d3ff;
+            background-color: #dfb4e9ff;
         }
     </style>
 </head>
